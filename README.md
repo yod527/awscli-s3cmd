@@ -5,5 +5,11 @@ Simple docker image which contains awscli and s3cmd, based on the [debian:stable
 ## Run container with
 
 ```
-docker run --rm -ti yod527/awscli-s3cmd:latest bash
+docker run --rm -ti mryod/awscli-s3cmd:latest bash
+``` 
+
+## Build container with
+
+```
+docker build . -t awscli-s3cmd:latest
 ``` 
